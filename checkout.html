@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lobez</title>
+    <link rel="icon" type="image/x-icon" href="./assets/media/favicon.png" />
+    <link rel="stylesheet" href="./assets/vendor/bootstrap-5.3.3/css/bootstrap.min.css" media="all" />
+    <!-- <link rel="stylesheet" href="./assets/vendor/bootstrap-5.3.3/css/bootstrap.rtl.css" media="all" /> -->
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css" media="all" />
+    <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css" media="all" />
+    <link rel="stylesheet" href="./assets/css/style.css" media="all" />
+    <!-- <link rel="stylesheet" href="./assets/css/rtl.css" media="all" /> -->
+
+
+    <style>
+        /* if English */
+        @font-face {
+            font-family: "DMSans-Regular";
+            src: url("./assets/fonts/English/DMSans-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "DMSans-Medium";
+            src: url("./assets/fonts/English/DMSans-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "DMSans-Bold";
+            src: url("./assets/fonts/English/DMSans-Bold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        :root {
+            --primary: #005431;
+            --secondary: #ff9916;
+        }
+    </style>
+
+
+    <!-- <style>
+            /* if Arabic */
+            @font-face {
+                font-family: "PingAR-Regular";
+                src: url("./assets/fonts/Arabic/PingAR-Regular.otf") format("opentype");
+                font-display: swap;
+            }
+    
+            @font-face {
+                font-family: "PingAR-Medium";
+                src: url("./assets/fonts/Arabic/PingAR-Medium.otf") format("opentype");
+                font-display: swap;
+            }
+    
+            @font-face {
+                font-family: "PingAR-Bold";
+                src: url("./assets/fonts/Arabic/PingAR-Bold.otf") format("opentype");
+                font-display: swap;
+            }
+        </style> -->
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img class="object-fit-contain" width="120" height="60" src="./assets/media/logo.webp" alt="Lobez"
+                    loading="lazy" />
+            </a>
+
+            <div class="d-flex align-items-center">
+                <a href="#" class="btn btn-sm py-2 px-4 btn-main rounded-pill d-lg-none d-inline-flex">
+                    Arabic <span class="circle-dot"></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="hgi hgi-stroke hgi-menu-two-line"></i>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About
+                            us</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link 01</a></li>
+                            <li><a class="dropdown-item" href="#">Link 02</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="#" class="btn btn-md btn-main rounded-pill d-lg-inline-flex d-none">
+                Arabic <span class="circle-dot"></span>
+            </a>
+        </div>
+    </nav>
+    <!--End Navbar-->
+
+    <div class="py-xxl">
+        <div class="container-fluid">
+            <form action="">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="position-sticky" style="top: 50px">
+                            <h6 class="fw-bd mb-md">1. Review your order (1 items)</h6>
+                            <div class="table-responsive">
+                                <table class="table table-borderless">
+                                    <tbody class="align-middle">
+                                        <tr>
+                                            <td>
+                                                <div class="block-item d-flex flex-row align-items-center gap-2">
+                                                    <div class="block-image">
+                                                        <a href="#">
+                                                            <img class="object-fit-contain" width="120"
+                                                                src="./assets/media/--pro/1.webp" alt="no-photo"
+                                                                loading="lazy"
+                                                                style="aspect-ratio: 12/12; min-width: 90px" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="block-content d-flex flex-column gap-2">
+                                                        <a class="fs-4 d-block lh-sm mb-1 font-primary-md" href="#">
+                                                            Lopez white shoes</a>
+                                                        <p><span class="fw-medium">QTY</span>: 1</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="text-end">SR280.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="text" class="form-control form-control-md"
+                                                    placeholder="Enter coupon code" />
+                                            </td>
+                                            <td class="text-end">
+                                                <a href="#" class="btn btn-md btn-main">
+                                                    Apply <span class="circle-dot"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="mف-md w-100" style="height: 1px; background-color: #000; opacity: 0.1"></div>
+
+                            <div class="d-flex justify-content-between align-items-center mt-md">
+                                <span class="fw-medium">Subtotal</span>
+                                <span class="fs-5 fw-bold text-secondary-color">SR280.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 offset-lg-1">
+                        <div class="mb-lg">
+                            <h6 class="mb-md">2. Contact Information</h6>
+
+                            <div class="row row-gap-3">
+                                <div class="col-lg-12">
+                                    <label class="mb-2">Fullname*</label>
+                                    <input type="text" class="form-control form-control-md" />
+                                </div>
+                                <div class="col-lg-6">
+                                    <label class="mb-2">Email Address*</label>
+                                    <input type="text" class="form-control form-control-md" />
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <label class="mb-2">Phone*</label>
+                                    <input type="text" class="form-control form-control-md" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-lg">
+                            <h6 class="mb-md">3. Delivery address</h6>
+
+                            <div class="row row-gap-3">
+                                <div class="col-lg-12">
+                                    <label class="mb-2">Address*</label>
+                                    <input type="text" class="form-control form-control-md" />
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <label class="mb-2">Country*</label>
+                                    <select class="form-control form-control-md form-select">
+                                        <option>Egypt</option>
+                                        <option>UAE</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4">
+                                    <label class="mb-2">City Name*</label>
+                                    <input type="text" class="form-control form-control-md" />
+                                </div>
+                                <div class="col-lg-4">
+                                    <label class="mb-2">Postcode/ZIP Code*</label>
+                                    <input type="text" class="form-control form-control-md" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-lg">
+                            <h6 class="fw-bd mb-md">3. Select payment method</h6>
+                            <div class="mb-4 d-flex gap-5">
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="payment" value="0"
+                                            data-bs-toggle="collapse" data-bs-target="#payment" aria-expanded="true" />
+                                        <label class="form-check-label">Card</label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="payment" value="1"
+                                            id="cashOnDelivery" />
+                                        <label class="form-check-label">Cash on delivery </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="sector_descriptions">
+                                <div id="payment" class="collapse" data-bs-parent="#sector_descriptions">
+                                    <div class="card card-body border-0 p-0">
+                                        <div class="row row-gap-3">
+                                            <div class="col-lg-4">
+                                                <label class="mb-2">Card number*</label>
+                                                <input type="text" class="form-control form-control-md"
+                                                    placeholder=".... .... .... ...." />
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <label class="mb-2">Expiration Date*</label>
+                                                <input type="text" class="form-control form-control-md"
+                                                    placeholder="MM/YY" />
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <label class="mb-2">CVV*</label>
+                                                <input type="text" class="form-control form-control-md"
+                                                    placeholder="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-end">
+                            <a href="#" class="btn btn-md btn-main">
+                                Make Payment <span class="circle-dot"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="pt-lg pb-md">
+        <div class="container-fluid">
+            <div class="text-center mb-xl">
+                <img width="150" src="./assets/media/logo-white.webp" alt="logo" loading="lazy" />
+            </div>
+            <div class="row row-gap-4">
+                <div class="col-lg-4">
+                    <h3 class="text-capitalize font-primary-md mb-md">
+                        About Lobez
+                    </h3>
+                    <p class="opacity-75 mb-md fw-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                        laudantium sed odio dicta.
+                    </p>
+
+                    <div class="d-flex gap-3">
+                        <a class="fs-lg text-secondary-color" href="#"><i
+                                class="hgi hgi-stroke hgi-instagram align-middle"></i></a>
+                        <a class="fs-lg text-secondary-color" href="#"><i
+                                class="hgi hgi-stroke hgi-linkedin-01 align-middle"></i></a>
+                        <a class="fs-lg text-secondary-color" href="#"><i
+                                class="hgi hgi-stroke hgi-new-twitter align-middle"></i></a>
+                        <a class="fs-lg text-secondary-color" href="#"><i
+                                class="hgi hgi-stroke hgi-facebook-01 align-middle"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-4">
+                    <h3 class="text-capitalize font-primary-md mb-md">
+                        Quick Links
+                    </h3>
+                    <div class="d-flex flex-wrap row-gap-4">
+                        <a class="col-6" href="#">Home</a>
+                        <a class="col-6" href="#">Starter</a>
+                        <a class="col-6" href="#">Cart</a>
+                        <a class="col-6" href="#">FAQ’s</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-lg w-100" style="height: 1px; background-color: #fff; opacity: 0.1"></div>
+            <div class="text-center mt-md">
+                <small class="opacity-75">Copyright© 2025 Reach Rise - All Rights Reserved.</small>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/vendor/bootstrap-5.3.3/js/bootstrap.bundle.min.js " defer></script>
+    <script src="./assets/vendor/swiper/swiper-bundle.min.js" defer></script>
+    <script src="./assets/vendor/masonry/masonry.pkgd.min.js" defer></script>
+    <script src="./assets/vendor/masonry/imagesloaded.pkgd.min.js" defer></script>
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>

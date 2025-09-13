@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lobez</title>
+    <link rel="icon" type="image/x-icon" href="./assets/media/favicon.png" />
+    <link rel="stylesheet" href="./assets/vendor/bootstrap-5.3.3/css/bootstrap.min.css" media="all" />
+    <!-- <link rel="stylesheet" href="./assets/vendor/bootstrap-5.3.3/css/bootstrap.rtl.css" media="all" /> -->
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css" media="all" />
+    <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css" media="all" />
+    <link rel="stylesheet" href="./assets/css/style.css" media="all" />
+    <!-- <link rel="stylesheet" href="./assets/css/rtl.css" media="all" /> -->
+
+
+    <style>
+        /* if English */
+        @font-face {
+            font-family: "DMSans-Regular";
+            src: url("./assets/fonts/English/DMSans-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "DMSans-Medium";
+            src: url("./assets/fonts/English/DMSans-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "DMSans-Bold";
+            src: url("./assets/fonts/English/DMSans-Bold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        :root {
+            --primary: #005431;
+            --secondary: #ff9916;
+        }
+    </style>
+
+
+    <!-- <style>
+            /* if Arabic */
+            @font-face {
+                font-family: "PingAR-Regular";
+                src: url("./assets/fonts/Arabic/PingAR-Regular.otf") format("opentype");
+                font-display: swap;
+            }
+    
+            @font-face {
+                font-family: "PingAR-Medium";
+                src: url("./assets/fonts/Arabic/PingAR-Medium.otf") format("opentype");
+                font-display: swap;
+            }
+    
+            @font-face {
+                font-family: "PingAR-Bold";
+                src: url("./assets/fonts/Arabic/PingAR-Bold.otf") format("opentype");
+                font-display: swap;
+            }
+        </style> -->
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img class="object-fit-contain" width="120" height="60" src="./assets/media/logo.webp" alt="Lobez"
+                    loading="lazy" />
+            </a>
+
+            <div class="d-flex align-items-center">
+                <a href="#" class="btn btn-sm py-2 px-4 btn-main rounded-pill d-lg-none d-inline-flex">
+                    Arabic <span class="circle-dot"></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="hgi hgi-stroke hgi-menu-two-line"></i>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About
+                            us</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link 01</a></li>
+                            <li><a class="dropdown-item" href="#">Link 02</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="#" class="btn btn-md btn-main rounded-pill d-lg-inline-flex d-none">
+                Arabic <span class="circle-dot"></span>
+            </a>
+        </div>
+    </nav>
+    <!--End Navbar-->
+
+    <div class="py-xxl">
+        <div class="container-fluid">
+            <div class="row row-gap-5">
+                <div class="col-lg-6">
+                    <div class="hero">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="position-relative">
+                                    <div class="swiper-button-up mb-2" style="cursor: pointer;">
+                                        <i class="hgi hgi-stroke hgi-arrow-up-01"></i>
+                                    </div>
+                                    <div class="swiper thumbs-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="position-relative h-100">
+                                                    <img class="w-100"
+                                                        src="./assets/media/--pro/7045b31c97b642f189f3fdc36d80433b.thumbnail.0000000000.webp"
+                                                        alt="" />
+
+                                                    <span class="thumbnail__badge position-absolute top-0 end-0 m-2">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                                            focusable="false" class="icon icon-play" fill="none"
+                                                            viewBox="0 0 10 14" aria-label="Play button">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M1.48177 0.814643C0.81532 0.448245 0 0.930414 0 1.69094V12.2081C0 12.991 0.858787 13.4702 1.52503 13.0592L10.5398 7.49813C11.1918 7.09588 11.1679 6.13985 10.4965 5.77075L1.48177 0.814643Z"
+                                                                fill="currentColor"></path>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide"><img class="w-100"
+                                                    src="./assets/media/--pro/Theraface-Mask-Product-Img-7.png"
+                                                    alt="" />
+                                            </div>
+                                            <div class="swiper-slide"><img class="w-100"
+                                                    src="./assets/media/--pro/Theraface-Mask-Product-Img-8.png"
+                                                    alt="" />
+                                            </div>
+                                            <div class="swiper-slide"><img class="w-100"
+                                                    src="./assets/media/--pro/Theraface-Mask-Product-Img-7.png"
+                                                    alt="" />
+                                            </div>
+                                            <div class="swiper-slide"><img class="w-100"
+                                                    src="./assets/media/--pro/Theraface-Mask-Product-Img-8.png"
+                                                    alt="" />
+                                            </div>
+                                            <div class="swiper-slide"><img class="w-100"
+                                                    src="./assets/media/--pro/Theraface-Mask-Product-Img-7.png"
+                                                    alt="" />
+                                            </div>
+                                            <div class="swiper-slide"><img class="w-100"
+                                                    src="./assets/media/--pro/Theraface-Mask-Product-Img-8.png"
+                                                    alt="" />
+                                            </div>
+                                            <div class="swiper-slide"><img class="w-100"
+                                                    src="./assets/media/--pro/Theraface-Mask-Product-Img-7.png"
+                                                    alt="" />
+                                            </div>
+                                            <div class="swiper-slide"><img class="w-100"
+                                                    src="./assets/media/--pro/Theraface-Mask-Product-Img-8.png"
+                                                    alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-down mt-2" style="cursor: pointer;">
+                                        <i class="hgi hgi-stroke hgi-arrow-down-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-10">
+                                <div class="swiper main-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <video playsinline="playsinline" autoplay="autoplay" loop="loop"
+                                                preload="auto" muted="muted" aria-label="TheraFace Mask"
+                                                poster="//www.therabody.com/cdn/shop/files/preview_images/7045b31c97b642f189f3fdc36d80433b.thumbnail.0000000000_2048x.jpg?v=1739354398"
+                                                data-uw-rm-av="vi">
+                                                <source
+                                                    src="//www.therabody.com/cdn/shop/videos/c/vp/7045b31c97b642f189f3fdc36d80433b/7045b31c97b642f189f3fdc36d80433b.SD-480p-0.9Mbps-42501739.mp4?v=0"
+                                                    type="video/mp4"><img
+                                                    src="//www.therabody.com/cdn/shop/files/preview_images/7045b31c97b642f189f3fdc36d80433b.thumbnail.0000000000_2048x.jpg?v=1739354398"
+                                                    alt="7045b31c97b642f189f3fdc36d80433b.Thumbnail.0000000000 2048x"
+                                                    data-uw-rm-alt-original="7045b31c97b642f189f3fdc36d80433b.Thumbnail.0000000000 2048x"
+                                                    data-uw-rm-alt="ALT">
+                                            </video>
+                                        </div>
+                                        <div class="swiper-slide"><img class="w-100"
+                                                src="./assets/media/--pro/Theraface-Mask-Product-Img-7.png" alt="" />
+                                        </div>
+                                        <div class="swiper-slide"><img class="w-100"
+                                                src="./assets/media/--pro/Theraface-Mask-Product-Img-8.png" alt="" />
+                                        </div>
+                                        <div class="swiper-slide"><img class="w-100"
+                                                src="./assets/media/--pro/Theraface-Mask-Product-Img-7.png" alt="" />
+                                        </div>
+                                        <div class="swiper-slide"><img class="w-100"
+                                                src="./assets/media/--pro/Theraface-Mask-Product-Img-8.png" alt="" />
+                                        </div>
+                                        <div class="swiper-slide"><img class="w-100"
+                                                src="./assets/media/--pro/Theraface-Mask-Product-Img-7.png" alt="" />
+                                        </div>
+                                        <div class="swiper-slide"><img class="w-100"
+                                                src="./assets/media/--pro/Theraface-Mask-Product-Img-8.png" alt="" />
+                                        </div>
+                                        <div class="swiper-slide"><img class="w-100"
+                                                src="./assets/media/--pro/Theraface-Mask-Product-Img-7.png" alt="" />
+                                        </div>
+                                        <div class="swiper-slide"><img class="w-100"
+                                                src="./assets/media/--pro/Theraface-Mask-Product-Img-8.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="title">
+                        <small class="opacity-75">lobez</small>
+                        <h2 class="text-capitalize">Lopez white shoes</h2>
+                    </div>
+                    <div class="mb-4">
+                        <span class="fw-medium">EGP <span class="fs-xl text-primary-color">63,080</span></span>
+                        <del class="opacity-50 ms-1"><small>63,360</small></del>
+                        <small class="px-3 py-1 rounded-3 ms-3"
+                            style="background-color: rgba(1, 188, 1, 0.2);color: #01BC01;">SALE</small>
+                    </div>
+
+                    <p>
+                        The black Lopez shoe comes to you in two pieces, the body and the
+                        cover, and it comes with 4 covers in the following colors: white,
+                        grey, green and beige.
+                    </p>
+
+                    <p>
+                        Add more details about the product and confirming the purchase
+                        means accepting the terms and conditions.
+                    </p>
+
+                    <p>
+                        The product will be delivered after the campaign is completed.
+                    </p>
+
+                    <div class="my-md w-100" style="height: 1px; background-color: #000; opacity: 0.1"></div>
+
+                    <div class="d-flex flex-column gap-2">
+                        <small class="opacity-75">Shoe size</small>
+                        <div class="d-flex flex-wrap gap-2">
+                            <div class="form-check form-check-size">
+                                <input class="form-check-input custom-control-input" type="radio" name="size" checked>
+                                <label class="form-check-label">EU 40/ US 7</label>
+                            </div>
+                            <div class="form-check form-check-size">
+                                <input class="form-check-input custom-control-input" type="radio" name="size">
+                                <label class="form-check-label">EU 41/ US 8</label>
+                            </div>
+                            <div class="form-check form-check-size">
+                                <input class="form-check-input custom-control-input" type="radio" name="size">
+                                <label class="form-check-label">EU 42/ US 9</label>
+                            </div>
+                            <div class="form-check form-check-size">
+                                <input class="form-check-input custom-control-input" type="radio" name="size">
+                                <label class="form-check-label">EU 43/ US 10</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="my-md w-100" style="height: 1px; background-color: #000; opacity: 0.1"></div>
+
+                    <div class="d-flex flex-column gap-2">
+                        <small class="opacity-75">Color: Gold</small>
+                        <div class="d-flex flex-wrap gap-2">
+                            <div class="form-check form-check-color">
+                                <input class="form-check-input custom-control-input" type="radio" name="color" checked>
+                                <label class="form-check-label" style="background-color: gold;"></label>
+                            </div>
+                            <div class="form-check form-check-color">
+                                <input class="form-check-input custom-control-input" type="radio" name="color">
+                                <label class="form-check-label" style="background-color: black;"></label>
+                            </div>
+                            <div class="form-check form-check-color">
+                                <input class="form-check-input custom-control-input" type="radio" name="color">
+                                <label class="form-check-label" style="background-color: gray;"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="my-md w-100" style="height: 1px; background-color: #000; opacity: 0.1"></div>
+
+                    <div class="d-flex align-items-center gap-4">
+                        <div class="qtySelector">
+                            <span class="hgi hgi-stroke hgi-plus-sign align-middle increaseQty"></span>
+                            <input type="text" class="qtyValue" value="2" />
+                            <span class="hgi hgi-stroke hgi-minus-sign align-middle decreaseQty"></span>
+                        </div>
+
+                        <a href="./checkout.html" class="btn btn-md btn-main rounded-pill">
+                            Buy Now <span class="circle-dot"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pt-lg pb-md">
+        <div class="container-fluid">
+            <div class="text-center mb-xl">
+                <img width="150" src="./assets/media/logo-white.webp" alt="logo" loading="lazy" />
+            </div>
+            <div class="row row-gap-4">
+                <div class="col-lg-4">
+                    <h3 class="text-capitalize font-primary-md mb-md">
+                        About Lobez
+                    </h3>
+                    <p class="opacity-75 mb-md fw-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                        laudantium sed odio dicta.
+                    </p>
+
+                    <div class="d-flex gap-3">
+                        <a class="fs-lg text-secondary-color" href="#"><i
+                                class="hgi hgi-stroke hgi-instagram align-middle"></i></a>
+                        <a class="fs-lg text-secondary-color" href="#"><i
+                                class="hgi hgi-stroke hgi-linkedin-01 align-middle"></i></a>
+                        <a class="fs-lg text-secondary-color" href="#"><i
+                                class="hgi hgi-stroke hgi-new-twitter align-middle"></i></a>
+                        <a class="fs-lg text-secondary-color" href="#"><i
+                                class="hgi hgi-stroke hgi-facebook-01 align-middle"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-4">
+                    <h3 class="text-capitalize font-primary-md mb-md">
+                        Quick Links
+                    </h3>
+                    <div class="d-flex flex-wrap row-gap-4">
+                        <a class="col-6" href="#">Home</a>
+                        <a class="col-6" href="#">Starter</a>
+                        <a class="col-6" href="#">Cart</a>
+                        <a class="col-6" href="#">FAQ’s</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-lg w-100" style="height: 1px; background-color: #fff; opacity: 0.1"></div>
+            <div class="text-center mt-md">
+                <small class="opacity-75">Copyright© 2025 Reach Rise - All Rights Reserved.</small>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/vendor/bootstrap-5.3.3/js/bootstrap.bundle.min.js " defer></script>
+    <script src="./assets/vendor/swiper/swiper-bundle.min.js" defer></script>
+    <script src="./assets/vendor/masonry/masonry.pkgd.min.js" defer></script>
+    <script src="./assets/vendor/masonry/imagesloaded.pkgd.min.js" defer></script>
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>

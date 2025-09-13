@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "PingAR-Regular";
+    src: url("../fonts/Arabic/PingAR-Regular.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PingAR-Medium";
+    src: url("../fonts/Arabic/PingAR-Medium.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PingAR-Bold";
+    src: url("../fonts/Arabic/PingAR-Bold.otf") format("opentype");
+    font-display: swap;
+}
+
+:root {
+    --font-primary-rg: "PingAR-Regular";
+    --font-primary-md: "PingAR-Medium";
+    --font-primary-bd: "PingAR-Bold";
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    transform: none;
+}
