@@ -7,15 +7,8 @@ $(document).ready(function () {
         const prevBtn = parent.querySelector('.swiper-button-prev');
 
         new Swiper(swiperEl, {
-            slidesPerView: 4,
-            spaceBetween: 25,
+            slidesPerView: 1,
             navigation: { nextEl: nextBtn, prevEl: prevBtn },
-            breakpoints: {
-                0: { slidesPerView: 1, spaceBetween: 15 },
-                576: { slidesPerView: 2, spaceBetween: 20 },
-                992: { slidesPerView: 3, spaceBetween: 20 },
-                1330: { slidesPerView: 3, spaceBetween: 25 },
-            }
         });
     });
 
